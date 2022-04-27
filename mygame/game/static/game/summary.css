@@ -1,0 +1,59 @@
+table, th, td {
+    border: 1px solid;
+    margin-left: auto;
+    margin-right: auto;;
+    font-size: 30pt;
+}
+table{
+    margin-top: 80px;
+}
+td{
+    text-align: center;
+}
+
+th{
+    padding-left: 5px;
+    padding-right: 5px;
+}
+
+h1{
+    font-size: 60px;
+    color: whitesmoke;
+    text-align: center;
+    -webkit-animation: glow 1s ease-in-out infinite alternate;
+    -moz-animation: glow 1s ease-in-out infinite alternate;
+    animation: glow 1s ease-in-out infinite alternate;
+  }
+  
+  @keyframes glow {
+    from {
+      text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #e60073, 0 0 40px #8e00e6, 0 0 50px #e60073, 0 0 60px #e60073, 0 0 70px #e60073;
+    }
+    to {
+      text-shadow: 0 0 20px #fff, 0 0 30px #7aff4d, 0 0 40px #4d5cff, 0 0 50px #4d9aff, 0 0 60px #4dffaf, 0 0 70px #944dff, 0 0 80px #4da0ff;
+    }
+}
+
+.button{
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+h3{
+    margin-top: 30px;
+    text-align: center;
+    font-size: 30px;
+}
+
+#button{
+    background-color: #744caf; /* Green */
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    border-radius: 7px;
+}

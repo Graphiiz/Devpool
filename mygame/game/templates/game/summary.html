@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    {% load static %}
+    <link rel="stylesheet" href="{% static 'game/summary.css' %}">
+    <title>Summary</title>
+</head>
+<body>
+    <h1>The current number of students in each house.</h1>
+    <div id="table">
+        <table>
+            <tr>
+              {% for house in houses %}
+                <th>{{ house }}</th>
+              {% endfor %}
+            </tr>
+            <tr>
+              {% for num in num_student %}
+                <td>{{ num }}</td>
+              {% endfor %}
+            </tr>
+        </table>
+    </div>
+    <div id="total">
+        <h3>Total number of students: {{ curr_num }}</h3>
+    </div>
+    <form action="{% url 'index' %}">
+        <div class="button">
+            <input id="button" type="submit" value="Home">
+        </div>
+    </form>
+</body>
+</html>

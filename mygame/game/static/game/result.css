@@ -1,0 +1,45 @@
+h1{
+    text-align: center;
+    font-size: 50pt;
+    font-family: cursive;
+    animation: color-change 1s infinite;
+    
+}
+@keyframes color-change {
+    0% { color: red; }
+    50% { color: blue; }
+    100% { color: red; }
+}
+
+h2{
+    text-align: center;
+    font-family: cursive;
+    font-size: 40pt;
+}
+
+.line_3{
+    animation: color-change1 1s infinite;
+}
+@keyframes color-change1 {
+    0% { color: green; }
+    50% { color: blue; }
+    100% { color: pink; }
+}
+
+
+.buttons{
+    display: flex;
+    justify-content: center;
+}
+
+#home, #summary{
+    background-color: #744caf; /* Green */
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    border-radius: 7px;
+}

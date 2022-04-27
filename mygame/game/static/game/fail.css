@@ -1,0 +1,28 @@
+h1{
+    text-align: center;
+    font-size: 40px;
+}
+
+h2{
+    text-align: center;
+    font-size: 30px;
+}
+
+.line_2{
+    margin-top: 50px;
+}
+
+.line_3{
+    margin-top: 50px;
+}
+
+.buttons{
+    margin-top: 100px;
+    display: flex;
+    justify-content: center;
+}
+
+#home, #sumary{
+    width: 70px;
+    height: 30px;
+}
