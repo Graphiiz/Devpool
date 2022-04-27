@@ -1,6 +1,6 @@
 # Devpool
+After clone this repository to your local computer
 
 Step:
-* git clone repo_url
-* access to Devpool/mygame/
+* access to directory Devpool/mygame/
 * type command: python manage.py runserver
