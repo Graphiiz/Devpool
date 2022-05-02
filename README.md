@@ -3,7 +3,7 @@
 ## Install Django:
 * use base environment or setting up the new environment
 
-if seeting up the env:
+if setting up the env:
 
 * type: python -m venv env_name
 * type: /env_name/bin/activate
