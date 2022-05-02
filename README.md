@@ -11,7 +11,7 @@ if setting up the env:
 Then run:
 * python -m pip install Django
 
-## After clone this repository to your local computer 
+## After clone this repository to your local computer, run the server
 
 Step:
 * access to directory Devpool/mygame/
@@ -31,6 +31,8 @@ Django version 3.1.1, using settings 'mygame.settings'
 Starting development server at http://127.0.0.1:8000/
 
 Quit the server with CONTROL-C.
+
+## run web app
 
 * type http://127.0.0.1:8000/ into your browser
 * Enjoy!!
