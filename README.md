@@ -1,5 +1,17 @@
 # Devpool
-After clone this repository to your local computer
+
+## Install Django:
+* use base environment or setting up the new environment
+
+if seeting up the env:
+
+* type: python -m venv env_name
+* type: /env_name/bin/activate
+
+Then run:
+* python -m pip install Django
+
+## After clone this repository to your local computer 
 
 Step:
 * access to directory Devpool/mygame/
