@@ -6,7 +6,7 @@
 if setting up the env:
 
 * type: python -m venv env_name
-* type: /env_name/bin/activate
+* type: /path to env/env_name/bin/activate
 
 Then run:
 * python -m pip install Django
