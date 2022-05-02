@@ -16,7 +16,7 @@ Then run:
 Step:
 * access to directory Devpool/mygame/
 * type command: python manage.py runserver
-* You will get theese lines: 
+* You will get these lines like: 
 
 
 Watching for file changes with StatReloader
